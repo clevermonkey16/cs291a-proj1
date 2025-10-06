@@ -1,0 +1,76 @@
+/* * styles.css
+ * This file provides the styles for the index.html page.
+ * It fulfills the requirement of using an external style sheet 
+ * and avoiding inline 'style' attributes.
+ */
+
+/* === General Body and Typography Styles === */
+body {
+    /* Sets a basic font and background color */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Enhances readability for the main content area */
+h1 {
+    color: #0056b3; /* A nice blue for the main heading */
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #007bff; /* A lighter blue for subheadings */
+    margin-top: 30px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* === Image Styling === */
+img {
+    /* Makes the image responsive and gives it a border */
+    max-width: 250px;
+    height: auto;
+    border-radius: 8px; /* Slightly rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: block; /* Ensures the margin is applied correctly */
+    margin-bottom: 20px;
+}
+
+/* === Expert Topics List Styling (using the required ID) === */
+#expert-topics {
+    /* Highlights the section using the 'expert-topics' ID */
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+}
+
+#expert-topics ul {
+    /* Removes default bullets and adds padding */
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* === Hyperlink Styling === */
+a {
+    color: #28a745; /* A success green for links */
+    text-decoration: none; /* Removes the underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Adds underline on hover for better user experience */
+}
+
+/* === Horizontal Rule Styling === */
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin: 40px 0;
+}
